@@ -10,7 +10,6 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         self.wfile.write(b'Hello world')
         hostname = socket.gethostname()
         local_ip = socket.gethostbyname(hostname)
-        print(local_ip)
-
+        self.wfile.write(local_ip)
 httpd = socketserver.TCPServer(('', 8000), Handler)
 httpd.serve_forever()
