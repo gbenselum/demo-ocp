@@ -1,7 +1,7 @@
 
 <html>
 <head>
-<title > Probando sitio en php v 1.1 </title>
+<title > Probando sitio en php v 1.5 </title>
 
 </head>
 <body>
